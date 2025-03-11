@@ -1,26 +1,14 @@
 package web.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Car {
-    private int id;
     private String model;
     private String color;
     private int enginePower;
 
-    public Car(int id,String model,String color, int enginePower) {
+    public Car(String model, String color, int enginePower) {
         this.model = model;
         this.enginePower = enginePower;
         this.color = color;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getModel() {
